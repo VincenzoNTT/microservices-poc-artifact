@@ -1,10 +1,11 @@
-package it.codingjam.filters.config;
+package it.nttdata.ecosystem.filters.config;
 
-import it.codingjam.filters.mdc.PrincipalLoggerFilter;
-import it.codingjam.filters.mdc.RequestRemoteIpLoggerFilter;
-import it.codingjam.filters.mdc.UriMetricsLoggerFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
+
+import it.nttdata.ecosystem.filters.mdc.PrincipalLoggerFilter;
+import it.nttdata.ecosystem.filters.mdc.RequestRemoteIpLoggerFilter;
+import it.nttdata.ecosystem.filters.mdc.UriMetricsLoggerFilter;
 
 import javax.servlet.Filter;
 

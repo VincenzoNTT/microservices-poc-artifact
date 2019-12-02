@@ -1,7 +1,8 @@
-package it.codingjam.filters.enablers;
+package it.nttdata.ecosystem.filters.enablers;
 
-import it.codingjam.filters.config.LoggingFiltersConfig;
 import org.springframework.context.annotation.Import;
+
+import it.nttdata.ecosystem.filters.config.LoggingFiltersConfig;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

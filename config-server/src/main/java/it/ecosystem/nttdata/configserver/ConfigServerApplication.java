@@ -1,4 +1,4 @@
-package it.codingjam.configserver;
+package it.ecosystem.nttdata.configserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package it.codingjam.filters.mdc;
+package it.nttdata.ecosystem.filters.mdc;
 
 import org.slf4j.MDC;
 
