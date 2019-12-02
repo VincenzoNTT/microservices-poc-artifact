@@ -1,9 +1,10 @@
-package it.codingjam.orderservices.services;
+package it.nttdata.ecosystem.orderservices.services;
 
-import it.codingjam.orderservices.clients.CustomerResource;
-import it.codingjam.orderservices.dtos.Customer;
-import it.codingjam.orderservices.dtos.Order;
-import it.codingjam.orderservices.dtos.Orders;
+import it.nttdata.ecosystem.orderservices.clients.CustomerResource;
+import it.nttdata.ecosystem.orderservices.dtos.Customer;
+import it.nttdata.ecosystem.orderservices.dtos.Order;
+import it.nttdata.ecosystem.orderservices.dtos.Orders;
+
 import org.springframework.stereotype.Service;
 
 import javax.inject.Inject;

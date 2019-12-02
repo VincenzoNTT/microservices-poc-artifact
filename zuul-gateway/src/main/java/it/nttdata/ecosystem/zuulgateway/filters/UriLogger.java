@@ -1,4 +1,4 @@
-package it.codingjam.zuulgateway.filters;
+package it.nttdata.ecosystem.zuulgateway.filters;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

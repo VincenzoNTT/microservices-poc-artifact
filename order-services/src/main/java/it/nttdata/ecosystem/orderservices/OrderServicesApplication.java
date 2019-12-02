@@ -1,6 +1,5 @@
-package it.codingjam.orderservices;
+package it.nttdata.ecosystem.orderservices;
 
-import it.codingjam.orderservices.resources.OrderResource;
 import org.glassfish.jersey.logging.LoggingFeature;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.boot.SpringApplication;
@@ -8,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.cloud.netflix.feign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
+
+import it.nttdata.ecosystem.orderservices.resources.OrderResource;
 
 @ServletComponentScan
 @EnableFeignClients

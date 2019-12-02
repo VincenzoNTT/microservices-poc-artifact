@@ -1,4 +1,4 @@
-package it.codingjam.orderservices.dtos;
+package it.nttdata.ecosystem.orderservices.dtos;
 
 import java.util.List;
 

@@ -1,8 +1,8 @@
-package it.codingjam.customerservices.resources;
+package it.nttdata.ecosystem.customerservices.resources;
 
-import it.codingjam.customerservices.dtos.Customer;
-import it.codingjam.customerservices.dtos.Customers;
-import it.codingjam.customerservices.services.CustomerService;
+import it.nttdata.ecosystem.customerservices.dtos.Customer;
+import it.nttdata.ecosystem.customerservices.dtos.Customers;
+import it.nttdata.ecosystem.customerservices.services.CustomerService;
 
 import javax.inject.Inject;
 import javax.ws.rs.*;

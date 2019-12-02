@@ -1,4 +1,4 @@
-package it.codingjam.eurekaserver;
+package it.nttdata.ecosystem.eurekaserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package it.codingjam.supplierservices.clients;
+package it.nttdata.ecosystem.supplierservices.clients;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import it.codingjam.supplierservices.dtos.Order;
+import it.nttdata.ecosystem.supplierservices.dtos.Order;
 
 @FeignClient(value = "order-services", qualifier = "orderResource", fallback = OrderResource.OrderResourceFallback.class)
 public interface OrderResource {

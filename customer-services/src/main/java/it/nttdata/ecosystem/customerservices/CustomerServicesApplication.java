@@ -1,6 +1,6 @@
-package it.codingjam.customerservices;
+package it.nttdata.ecosystem.customerservices;
 
-import it.codingjam.customerservices.resources.CustomerResource;
+import it.nttdata.ecosystem.customerservices.resources.CustomerResource;
 import it.nttdata.ecosystem.filters.enablers.EnableLoggingInfo;
 
 import org.glassfish.jersey.logging.LoggingFeature;

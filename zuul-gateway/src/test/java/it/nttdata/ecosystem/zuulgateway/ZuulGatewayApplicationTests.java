@@ -1,4 +1,4 @@
-package it.codingjam.zuulgateway;
+package it.nttdata.ecosystem.zuulgateway;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

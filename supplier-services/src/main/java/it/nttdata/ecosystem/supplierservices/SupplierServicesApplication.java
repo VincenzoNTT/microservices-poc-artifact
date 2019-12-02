@@ -1,4 +1,4 @@
-package it.codingjam.supplierservices;
+package it.nttdata.ecosystem.supplierservices;
 
 import org.glassfish.jersey.logging.LoggingFeature;
 import org.glassfish.jersey.server.ResourceConfig;
@@ -8,7 +8,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.cloud.netflix.feign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
 
-import it.codingjam.supplierservices.resources.SupplierResource;
+import it.nttdata.ecosystem.supplierservices.resources.SupplierResource;
 
 @ServletComponentScan
 @EnableFeignClients

@@ -1,8 +1,9 @@
-package it.codingjam.customerservices.services;
+package it.nttdata.ecosystem.customerservices.services;
 
-import it.codingjam.customerservices.dtos.Customer;
-import it.codingjam.customerservices.dtos.Customers;
 import org.springframework.stereotype.Service;
+
+import it.nttdata.ecosystem.customerservices.dtos.Customer;
+import it.nttdata.ecosystem.customerservices.dtos.Customers;
 
 import java.util.Arrays;
 import java.util.List;

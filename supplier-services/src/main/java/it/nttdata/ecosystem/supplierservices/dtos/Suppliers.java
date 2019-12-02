@@ -1,4 +1,4 @@
-package it.codingjam.supplierservices.dtos;
+package it.nttdata.ecosystem.supplierservices.dtos;
 
 import java.util.List;
 

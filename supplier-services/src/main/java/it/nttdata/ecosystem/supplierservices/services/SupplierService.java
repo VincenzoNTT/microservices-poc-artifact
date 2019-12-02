@@ -1,4 +1,4 @@
-package it.codingjam.supplierservices.services;
+package it.nttdata.ecosystem.supplierservices.services;
 
 import java.util.Collections;
 import java.util.HashMap;
@@ -10,10 +10,10 @@ import javax.inject.Named;
 
 import org.springframework.stereotype.Service;
 
-import it.codingjam.supplierservices.clients.OrderResource;
-import it.codingjam.supplierservices.dtos.Order;
-import it.codingjam.supplierservices.dtos.Supplier;
-import it.codingjam.supplierservices.dtos.Suppliers;
+import it.nttdata.ecosystem.supplierservices.clients.OrderResource;
+import it.nttdata.ecosystem.supplierservices.dtos.Order;
+import it.nttdata.ecosystem.supplierservices.dtos.Supplier;
+import it.nttdata.ecosystem.supplierservices.dtos.Suppliers;
 
 @Service
 public class SupplierService {

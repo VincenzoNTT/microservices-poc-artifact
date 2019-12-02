@@ -1,7 +1,7 @@
-package it.codingjam.supplierservices.resources;
+package it.nttdata.ecosystem.supplierservices.resources;
 
-import it.codingjam.supplierservices.dtos.Suppliers;
-import it.codingjam.supplierservices.services.SupplierService;
+import it.nttdata.ecosystem.supplierservices.dtos.Suppliers;
+import it.nttdata.ecosystem.supplierservices.services.SupplierService;
 
 import javax.inject.Inject;
 import javax.ws.rs.*;

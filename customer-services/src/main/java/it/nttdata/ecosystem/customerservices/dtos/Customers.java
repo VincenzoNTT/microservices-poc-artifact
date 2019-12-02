@@ -1,4 +1,4 @@
-package it.codingjam.customerservices.dtos;
+package it.nttdata.ecosystem.customerservices.dtos;
 
 import java.util.List;
 

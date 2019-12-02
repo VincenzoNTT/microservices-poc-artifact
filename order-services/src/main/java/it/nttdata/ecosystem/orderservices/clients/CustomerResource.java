@@ -1,6 +1,5 @@
-package it.codingjam.orderservices.clients;
+package it.nttdata.ecosystem.orderservices.clients;
 
-import it.codingjam.orderservices.dtos.Customer;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.cloud.netflix.feign.FeignClient;
@@ -8,6 +7,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+
+import it.nttdata.ecosystem.orderservices.dtos.Customer;
 
 @FeignClient(value = "customer-services", qualifier = "customerResource", fallback = CustomerResource.CustomerResourceFallback.class)
 public interface CustomerResource {

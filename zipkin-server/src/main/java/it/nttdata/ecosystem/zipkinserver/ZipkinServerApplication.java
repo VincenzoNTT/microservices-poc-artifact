@@ -1,4 +1,4 @@
-package it.codingjam.zipkinserver;
+package it.nttdata.ecosystem.zipkinserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

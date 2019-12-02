@@ -1,4 +1,4 @@
-package it.codingjam.orderservices.filters;
+package it.nttdata.ecosystem.orderservices.filters;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;

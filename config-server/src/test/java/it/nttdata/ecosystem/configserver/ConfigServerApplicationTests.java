@@ -1,4 +1,4 @@
-package it.codingjam.configserver;
+package it.nttdata.ecosystem.configserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

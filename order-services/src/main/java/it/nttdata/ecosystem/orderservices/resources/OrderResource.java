@@ -1,7 +1,7 @@
-package it.codingjam.orderservices.resources;
+package it.nttdata.ecosystem.orderservices.resources;
 
-import it.codingjam.orderservices.dtos.Orders;
-import it.codingjam.orderservices.services.OrderService;
+import it.nttdata.ecosystem.orderservices.dtos.Orders;
+import it.nttdata.ecosystem.orderservices.services.OrderService;
 
 import javax.inject.Inject;
 import javax.ws.rs.*;

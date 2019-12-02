@@ -1,4 +1,4 @@
-package it.codingjam.supplierservices.filters;
+package it.nttdata.ecosystem.supplierservices.filters;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;

@@ -1,4 +1,4 @@
-package it.codingjam.customerservices;
+package it.nttdata.ecosystem.customerservices;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
