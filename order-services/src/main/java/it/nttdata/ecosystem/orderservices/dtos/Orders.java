@@ -12,6 +12,10 @@ public class Orders {
         this.customer = customer;
         this.orders = orders;
     }
+    
+    public Orders(List<Order> orders) {
+        this.orders = orders;
+    }
 
     public Customer getCustomer() {
         return customer;
