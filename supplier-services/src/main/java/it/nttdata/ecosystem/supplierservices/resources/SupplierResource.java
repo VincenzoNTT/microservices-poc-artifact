@@ -26,7 +26,7 @@ public class SupplierResource {
 	private SupplierService supplierService;
 
 	@GET
-	public Response getOrders(@PathParam("id") Long orderId) {
+	public Response getSuppliers(@PathParam("id") Long orderId) {
 		LOGGER.log(Level.INFO, "Searching supplier for order id {0}", orderId);
 		Suppliers supplierOrders = supplierService.getOrderSupplier(orderId);
 		return Response.ok(supplierOrders).build();

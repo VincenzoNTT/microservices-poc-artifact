@@ -1,18 +1,20 @@
 package it.nttdata.ecosystem.orderservices.services;
 
-import it.nttdata.ecosystem.orderservices.clients.CustomerResource;
-import it.nttdata.ecosystem.orderservices.dtos.Customer;
-import it.nttdata.ecosystem.orderservices.dtos.Order;
-import it.nttdata.ecosystem.orderservices.dtos.Orders;
-
-import org.springframework.stereotype.Service;
-
-import javax.inject.Inject;
-import javax.inject.Named;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
+
+import javax.inject.Inject;
+import javax.inject.Named;
+
+import org.springframework.stereotype.Service;
+
+import it.nttdata.ecosystem.orderservices.clients.CustomerResource;
+import it.nttdata.ecosystem.orderservices.dtos.Customer;
+import it.nttdata.ecosystem.orderservices.dtos.Order;
+import it.nttdata.ecosystem.orderservices.dtos.Orders;
 
 @Service
 public class OrderService {
@@ -34,7 +36,7 @@ public class OrderService {
         Customer customer = customerResource.getCustomer(customerId);
         return new Orders(customer, data.get(customer.getId()));
     }
-
+    
     private Order newOrder(int article, int quantity) {
         Order order = new Order();
         order.setArticleCode(article);

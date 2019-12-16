@@ -13,7 +13,7 @@ import it.nttdata.ecosystem.supplierservices.dtos.Order;
 @FeignClient(value = "order-services", qualifier = "orderResource", fallback = OrderResource.OrderResourceFallback.class)
 public interface OrderResource {
 
-    @RequestMapping(method = RequestMethod.GET, value = "/api/v1/orders/{id}")
+    @RequestMapping(method = RequestMethod.GET, value = "/api/v1/customers/{id}/orders")
     Order getOrder(@PathVariable("id") Long id);
 
     @Service
