@@ -11,7 +11,7 @@
     
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>it.codingjam</groupId>
+    <groupId>com.nttdata</groupId>
     <artifactId>commons</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
